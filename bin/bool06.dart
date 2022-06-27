@@ -6,5 +6,14 @@
     Returns:
         bool
     */
+bool func(a) {
+    return a%2 == 0;
+}
 
-void main() {}
+void main() {
+    int a = 8;
+    bool answer;
+
+    answer = func(a);
+    print(answer);
+}
