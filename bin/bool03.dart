@@ -7,4 +7,14 @@
         bool
     */
 
-void main() {}
+bool func(b){
+    return b > 0;
+}
+
+void main() {
+    int b = 6;
+    bool answer;
+    answer = func(b);
+
+    print(answer);
+}
