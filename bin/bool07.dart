@@ -7,5 +7,8 @@
     Returns:
         bool
     */
+bool func(a, b) {
+    return !(a == b);
+}
 
 void main() {}

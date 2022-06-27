@@ -7,4 +7,8 @@
         bool
     */
 
+bool func(a) {
+    return a%1 == 0 && a > -1;
+}
+
 void main() {}
